@@ -1,19 +1,7 @@
+import Slogan from "./Slogan";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const slogans = [
-    "Gabba Gabba Hey",
-    "Vulkan lives",
-    "It wouldn't be the same without them",
-    "One amoung the Fence",
-    "West of Arkham...",
-    "Have fun, dont't die",
-    "What doesn't grow dies",
-    "Bright blue his jacket is, and his boots are yellow",
-    "There was a hole here, it's gone now",
-    "Look, up in the sky",
-  ];
-
-  const slogan = slogans[Math.floor(Math.random() * slogans.length)];
 
   return (
     <footer className="mx-auto max-w-screen-lg px-3 py-6">
@@ -24,9 +12,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>
-        <span className="text-sm text-slate-700">{slogan}</span>
-      </div>
+      <Slogan />
     </footer>
   );
 };
