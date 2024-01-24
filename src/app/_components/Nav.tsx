@@ -13,7 +13,7 @@ const Nav = () => {
           </a>
         </li>
         <li className="hover:text-white">
-          <a href="/demo/astro-boilerplate">Contact</a>
+          <a href="mailto:empoole114@gmail.com">Contact</a>
         </li>
       </ul>
     </nav>
